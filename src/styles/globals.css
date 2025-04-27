@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn { @apply px-4 py-2 rounded shadow-sm transition-transform transform; }
+  .btn-primary { @apply bg-gradient-to-r from-brandPurple via-brandRed to-brandOrange text-white hover:scale-105; }
+  .btn-secondary { @apply bg-gray-200 text-gray-700 hover:bg-gray-300; }
+  .btn-danger { @apply bg-red-500 text-white hover:bg-red-600; }
+  .input { @apply border p-2 rounded focus:outline-none focus:ring-2 focus:ring-brandPurple transition duration-200; }
+  .card { @apply bg-white rounded-lg shadow-sm overflow-hidden transform transition hover:shadow-lg hover:-translate-y-1 duration-300; }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+html, body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f7fafc;
+}

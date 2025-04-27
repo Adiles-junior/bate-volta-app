@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1745694452296",
+    "items": [
+      {
+        "id": "1",
+        "name": "Viagem Praia",
+        "price": 500,
+        "quantity": 1,
+        "options": {
+          "destination": "Caruaru",
+          "type": "Viagem"
+        }
+      }
+    ],
+    "total": 500,
+    "paymentType": "Cartão",
+    "date": "2025-04-26T19:07:32.296Z"
+  },
+  {
+    "id": "1745700262402",
+    "items": [
+      {
+        "id": "1",
+        "name": "Viagem Praia",
+        "price": 500,
+        "quantity": 1,
+        "options": {
+          "destination": "Caruaru",
+          "type": "Viagem"
+        }
+      }
+    ],
+    "total": 500,
+    "paymentType": "PIX",
+    "name": "Jhonnes Bruno",
+    "email": "adilesjunior14@gmail.com",
+    "phone": "81991028828",
+    "date": "2025-04-26T20:44:22.402Z"
+  },
+  {
+    "id": "1745707603028",
+    "items": [
+      {
+        "id": "8",
+        "name": "Patio de Eventos",
+        "price": 100,
+        "quantity": 1,
+        "options": {
+          "destination": "Caruaru",
+          "type": "Evento"
+        }
+      }
+    ],
+    "total": 100,
+    "paymentType": "PIX",
+    "name": "Alvaro Junior",
+    "email": "alvaro@gmail.com",
+    "phone": "81987898789",
+    "date": "2025-04-26T22:46:43.028Z"
+  }
+]
